@@ -4,4 +4,4 @@
 def call(){
     sh 'mvn verify -DskipUnitTests'
 }
-//squ_f408eb1c13e62d2002539522262e593e73e0a3e5-sonarqube token
+//squ_9676f20da72378e135529de222a606dcb3a0a50c-sonarqube token
