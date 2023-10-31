@@ -9,3 +9,9 @@
      sh "docker image push ${hubUser}/${project}:${ImageTag}"
      sh "docker image push ${hubUser}/${project}:latest"   
  }
+//withCredentials([usernamePassword(
+  //  credentialsId: 'shubhamdevops',
+    // passwordVariable: 'PASS',
+      //usernameVariable: 'USER')]) {
+    // some block
+//}
