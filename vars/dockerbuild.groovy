@@ -6,3 +6,4 @@ def call(String project, String ImageTag, String shubhamdevops){
         docker image tag ${shubhamdevops}/${project} ${shubhamdevops}/${project}:Latest
     """
 
+}
