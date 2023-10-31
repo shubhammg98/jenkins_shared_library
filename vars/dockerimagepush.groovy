@@ -1,4 +1,4 @@
- def call(String project, String ImageTag, String hubUser){
+ def call(String project, String ImageTag, String shubhamdevops){
      withCredentials([usernamePassword(
              credentialsId: "shubhamdevops",
              usernameVariable: "USER",
