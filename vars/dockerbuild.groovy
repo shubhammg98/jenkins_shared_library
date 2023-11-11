@@ -1,7 +1,7 @@
 def call(String aws_account_id, String region, String shubhamdevops){
     
    sh """
-        docker image build -t ${shubhamdevops}${project} .
+        docker image build -t ${shubhamdevops}/${project} .
         docker image tag ${shubhamdevops}/${project} ${shubhamdevops}/${project}:${ImageTag}
         docker image tag ${shubhamdevops}/${project} ${shubhamdevops}/${project}:Latest
     """
