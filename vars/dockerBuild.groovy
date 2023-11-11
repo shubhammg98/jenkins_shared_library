@@ -15,7 +15,7 @@
     //"""
 
 //}
- def call(String project, String ImageTag, String hubUser){
+ def call(String project, String ImageTag, String shubhamdevops){
     
      sh """
       docker image build -t ${shubhamdevops}/${project} . 
